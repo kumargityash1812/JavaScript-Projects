@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
+}
+body{
+    display:flex;
+    background-color: #5372f0;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+   
+}
+.container{
+    width:450px;
+    border-radius: 7px;
+    background-color: white;
+    min-height:330px;
+}
+.container h2{
+    font-size:25px;
+    font-weight:500;
+     padding:18px 25px;
+     border-bottom: 1px solid #ccc;
+}
+.container .content{
+    margin:25px 20px 35px;   
+}
+.content .word{
+    font-size:33px;
+    font-weight:600;
+    text-align: center;
+    letter-spacing: 24px;
+    margin-right: -24px;
+    text-transform: uppercase;
+}
+.content .details{
+    margin:25px 0 20px;
+}
+.details p{
+    font-size:18px;
+    margin-bottom:10px
+}
+.content input{
+    width:100%;
+    height:60px;
+    outline:none;
+    font-size:18px;
+    padding:0 16px;
+    border-radius:5px;
+    border:1px solid #aaa;
+}
+.content .buttons{
+    display:flex;
+    margin-top:20px;
+    justify-content: space-between;
+}
+.buttons button{
+    border:none;
+    outline:none;
+    color:#fff;
+    cursor:pointer;
+    padding:15px 0;
+    font-size:17px;
+    border-radius:7px;
+    width:calc(100% / 2 - 8px);
+
+}
+.buttons .refresh-word{
+    background:#6c757d;
+}
+.buttons .check-word{
+    background: #5372f0;
+}

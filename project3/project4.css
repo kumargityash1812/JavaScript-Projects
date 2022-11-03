@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin-top:5%;
+    line-height: 30px;
+
+}
+h2 a{
+    font-size: 60px;
+}
+p{
+    text-decoration: underline;
+}
+ul{
+    list-style-type: none;
+    text-align: left;
+    width:500px;
+    padding:10px;
+    margin-left: 0px;
+
+}
+ul li{
+    margin-bottom: 2px;
+}

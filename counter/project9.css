@@ -1,0 +1,52 @@
+*{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        font-family: Arial;
+    }
+    .container{
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        text-align: center;
+        margin-top: 150px;
+    }
+    h1{
+        font-size: 4rem;
+    }
+    #span{
+        color:black;
+        font-size: 5rem;
+    }
+    .btncontainer{
+        display:flex;
+        flex-direction: row;
+        gap:30px;
+        margin-left:500px;
+    }
+    button{
+        color:black;
+        font-size: 1.2rem;
+        background-color: white;
+        width:150px;
+        height:35px;
+        border-radius: 10px;
+        cursor:pointer;
+    }
+    #btn1:hover{
+        background-color: red;
+        color:white;
+        opacity: 0.8;
+    }
+    #btn2:hover{
+        background-color: black;
+        color:white;
+        opacity: 0.8;
+    }
+    #btn3:hover{
+        background-color: green;
+        color:white;
+        opacity: 0.8;
+    }
+
+

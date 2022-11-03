@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Roboto','sans-serif';
+}
+body{
+    background-image: url(/forest2.jpg);
+    background-size: 100%;
+    position:relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.button{
+    position: absolute;
+    top:600px;
+    left:10%;
+    font-size: 2rem;
+    color:white;
+    border:2px solid white;
+    border-radius: 5px;
+    box-shadow: 0 0 3px black;
+    background: transparent;
+    padding:10px;
+    height: 80px;
+    width:350px;
+    transition: 0.5s;
+}
+.button:hover{
+    background-color: white;
+    color:black;
+}
+.text{
+    display:flex;
+    background-color: whitesmoke;
+    color: black;
+    width:200px;
+    height:100px;
+    top:400px;
+    padding:10px 20px;
+    left:50%;
+    position:absolute;
+    border:2px solid white;
+    border-radius: 5px;
+    align-items: center;
+    font-size: 1.5rem;
+    gap:20px;
+}
+.close-btn{
+    font-size: 3rem;
+    cursor:pointer;
+
+}
+.close-btn:hover{
+    font-size: 2.5rem;
+    color:red;
+}
+.text-container{
+    display:none;
+    position: fixed;
+    left:50%;
+    z-index: 1;
+}
