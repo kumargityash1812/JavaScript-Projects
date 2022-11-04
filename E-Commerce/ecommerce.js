@@ -1,6 +1,7 @@
 const bar = document.getElementById("bar");
 const nav = document.getElementById("navbar");
 const closeBtn = document.getElementById("close");
+const images = document.querySelectorAll(".pro img");
 const cart=document.getElementById("cart1");
 const header = document.getElementById("header");
   let mainImg=document.querySelector("#mainImg");
@@ -32,6 +33,14 @@ if (cart) {
         cart.style.color = "088178";
     })
 }
+          images.forEach((image) => {
+    image.addEventListener('click', () => {
+        mainImg.src = image.src;
+    })
+                });
+cartBtn.addEventListener("click", () => {
+    
+});
 
 
 
